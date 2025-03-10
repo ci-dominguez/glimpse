@@ -8,7 +8,7 @@ const AppLayout = ({ children }: AppLayoutProps) => {
   return (
     <>
       <Navbar />
-      <main className='pt-20 font-s-r px-4'>{children}</main>
+      <main className='pt-20 px-4'>{children}</main>
     </>
   );
 };
