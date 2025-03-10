@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'R-Thin';
+  src: url('R-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'R-Ultralight';
+  src: url('R-UltraLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'R-Ultralight-Italic';
+  src: url('R-UltraLight-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'S-Regular';
+  src: url('S-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-Medium';
+  src: url('S-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
