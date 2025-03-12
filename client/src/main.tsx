@@ -1,8 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router';
-import NotFound from './routes/not-found';
 import Home from './routes/home';
+import NotFound from './routes/not-found';
+import ColorSystemGenerate from './routes/color-system-generate';
 
 import './index.css';
 
@@ -12,6 +13,10 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='*' element={<NotFound />} />
+        <Route
+          path='/generate-color-system'
+          element={<ColorSystemGenerate />}
+        />
       </Routes>
     </BrowserRouter>
   </StrictMode>
